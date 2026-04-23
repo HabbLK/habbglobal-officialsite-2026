@@ -49,15 +49,15 @@ function HeroSection() {
                         {/* ---------------- heading text --------------- */}
                         <div className='relative flex flex-col text-center items-center gap-4'>
                             <h1 className='leading-tight'>
-                                <TextGenerateEffect words="Your Success, Engineered in Sri Lanka" />
+                                <TextGenerateEffect words="Your Success, Engineered Globally" />
                                 <TextGenerateEffect
-                                    words="Delivered Globally"
+                                    words="Delivered Seamlessly"
                                     delay={0.8}
                                     className="italic font-normal instrument-font"
                                 />
                             </h1>
                             <p className='max-w-2xl text-dark_black/60 dark:text-white/60'>
-                                HABB is a Sri Lanka-based digital engineering partner specialising in designing and building secure, scalable products — web, mobile, cloud and AI. With a focus on reliability, performance and rapid time-to-market, we deliver production-ready software solutions to clients worldwide.
+                                HABB Global is your worldwide digital engineering partner specialising in designing and building secure, scalable products — web, mobile, cloud and AI. With a focus on reliability, performance and rapid time-to-market, we deliver production-ready software solutions to clients everywhere.
                             </p>
                         </div>
 

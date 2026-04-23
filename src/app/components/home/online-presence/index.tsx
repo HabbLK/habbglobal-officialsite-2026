@@ -70,7 +70,7 @@ function OnlinePresence() {
                   <p className='text-sm mt-2 opacity-80'>AI products and integrations: automation, personalization and predictive analytics.</p>
                 </div>
 
-                <Link href='https://www.habbgate.com' target='_blank' rel='noopener noreferrer' className='block p-4 rounded-2xl border border-dark_black/10 dark:border-white/10' aria-label='Open HABBGate website (opens in new tab)'>
+                <Link href='/habbgate' className='block p-4 rounded-2xl border border-dark_black/10 dark:border-white/10' aria-label='Open HABBGate page'>
                   <div className='h-40 w-full overflow-hidden rounded-lg mb-4'>
                     <Image src='/images/home/onlinePresence/habbgate-placeholder.jpeg' alt='HABBGate' width={600} height={300} className='object-cover w-full h-full' />
                   </div>

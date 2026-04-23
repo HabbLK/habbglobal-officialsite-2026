@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '../header/Logo'
 import { FaFacebook, FaTiktok, FaGithub, FaLinkedin, FaYoutube, FaXTwitter, FaInstagram } from 'react-icons/fa6'
-import flagSriLanka from '@/assets/flags/Flag_of_Sri_Lanka.svg'
+import { Globe } from 'lucide-react'
 
 const Footer = () => {
   const [footerData, setfooterData] = useState<any>(null);
@@ -40,17 +40,11 @@ const Footer = () => {
         {/* Lanka Badge Section */}
         <div className='py-8 mb-8 px-6 rounded-lg bg-gradient-to-r from-purple_blue/10 via-orange/10 to-purple_blue/10 dark:from-purple_blue/20 dark:via-orange/20 dark:to-purple_blue/20 border border-orange/20'>
           <div className='flex items-center justify-center gap-3 mb-3'>
-            <Image
-              src={flagSriLanka}
-              alt='Sri Lanka Flag'
-              width={24}
-              height={17}
-              className='rounded-sm shadow-sm'
-            />
-            <span className='font-bold text-dark_black dark:text-white'>HABB - Sri Lanka's Digital Engineering Partner</span>
+            <Globe className="w-6 h-6 text-purple_blue" />
+            <span className='font-bold text-dark_black dark:text-white'>HABB GLOBAL (PVT) LTD - Your Digital Engineering Partner</span>
           </div>
           <p className='text-center text-sm text-dark_black/70 dark:text-white/70'>
-            Based in Sri Lanka | Delivering global-scale digital solutions
+            Connecting Talent Globally | Delivering world-class digital solutions
           </p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-16 border-b border-dark_black/10 dark:border-white/10'>

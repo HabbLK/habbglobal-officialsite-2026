@@ -13,7 +13,7 @@ import WebResult from "./components/home/web-result";
 import WatermarkLogo from "./components/shared/watermark-logo";
 
 export const metadata: Metadata = {
-  title: "HABB — Sri Lanka's Digital Engineering Partner | Your Success, Engineered",
+  title: "HABB Global — Your Digital Engineering Partner | Your Success, Engineered",
 };
 
 import Link from "next/link";

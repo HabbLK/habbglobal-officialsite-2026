@@ -43,7 +43,7 @@ export default function Page() {
                             </article>
                         </div>
 
-                        <p className="mt-6 text-sm text-dark_black/60 dark:text-white/60">For the full legal text, please consult the complete Terms & Conditions or contact legal@habblanka.com for clarifications.</p>
+                        <p className="mt-6 text-sm text-dark_black/60 dark:text-white/60">For the full legal text, please consult the complete Terms & Conditions or contact legal@habbglobal.com for clarifications.</p>
                     </div>
                 </div>
             </div>

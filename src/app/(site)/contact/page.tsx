@@ -4,7 +4,7 @@ import Faq from "@/app/components/home/faq";
 import { Metadata } from "next";
 import WatermarkLogo from "@/app/components/shared/watermark-logo";
 export const metadata: Metadata = {
-    title: "Contact HABB | Sri Lanka's Digital Engineering Partner",
+    title: "Contact HABB | Your Global Digital Engineering Partner",
 };
 
 export default function Page() {

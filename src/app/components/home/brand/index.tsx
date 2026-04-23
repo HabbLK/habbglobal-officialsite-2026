@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
-import flagSriLanka from '@/assets/flags/Flag_of_Sri_Lanka.svg'
 import flagGermany from '@/assets/flags/Flag_of_Germany_(RGB).svg.png'
 import flagFrance from '@/assets/flags/Flag_of_France.svg.png'
 import flagCanada from '@/assets/flags/Flag_of_Canada_(Pantone).svg'
@@ -55,7 +54,6 @@ function Brand() {
               <div className='mt-4 overflow-hidden relative'>
                 <div className='marquee-icons-track py-6'>
                   {[
-                    { src: flagSriLanka, alt: 'Sri Lanka' },
                     { src: flagUK, alt: 'United Kingdom' },
                     { src: flagGermany, alt: 'Germany' },
                     { src: flagFrance, alt: 'France' },
@@ -63,7 +61,6 @@ function Brand() {
                     { src: flagAustralia, alt: 'Australia' },
                     { src: flagSwitzerland, alt: 'Switzerland' },
                     { src: flagIndia, alt: 'India' },
-                    { src: flagSriLanka, alt: 'Sri Lanka' },
                     { src: flagUK, alt: 'United Kingdom' },
                     { src: flagGermany, alt: 'Germany' },
                     { src: flagFrance, alt: 'France' },

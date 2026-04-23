@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { TextGenerateEffect } from '@/app/components/ui/text-generate-effect'
-import flagSriLanka from '@/assets/flags/Flag_of_Sri_Lanka.svg'
 import flagGermany from '@/assets/flags/Flag_of_Germany_(RGB).svg.png'
 import flagFrance from '@/assets/flags/Flag_of_France.svg.png'
 import flagCanada from '@/assets/flags/Flag_of_Canada_(Pantone).svg'
@@ -20,18 +19,18 @@ type Branch = {
 
 const branches: Branch[] = [
   {
-    image: flagSriLanka,
-    title: 'Sri Lanka – Jaffna',
-    address: '218, Brown Road, Jaffna 40000',
-    map: 'https://share.google/7S4rnZIUPaEvTAmMk',
-    alt: 'Sri Lanka flag',
+    image: flagUK,
+    title: 'UK – London',
+    address: '123 Tech Lane, London EC1A 1BB',
+    map: 'https://share.google/YourLinkHere',
+    alt: 'UK flag',
   },
   {
-    image: flagSriLanka,
-    title: 'Sri Lanka – Colombo',
-    address: 'Janith Dhammika Mawatha, Colombo 10640',
-    map: 'https://share.google/La6np0rQEglmeF51y',
-    alt: 'Sri Lanka flag',
+    image: flagUK,
+    title: 'UK – Manchester',
+    address: '45 Innovation Drive, Manchester M1 1AA',
+    map: 'https://share.google/YourLinkHere',
+    alt: 'UK flag',
   },
   {
     image: flagGermany,

@@ -12,25 +12,17 @@
   --shadow-premium_card: 0px 10px 40px -10px rgba(0, 0, 0, 0.1);
 
   --color-dark_black: #0a0a0a;
-  --color-purple_blue: #059669;
-  /* Emerald Primary */
-  --color-purple: #10b981;
-  /* Lighter Emerald */
-  --color-blue: #065f46;
-  /* Deep Emerald */
-  --color-orange: #eab308;
-  /* Vibrant Gold */
-  --color-green: #10b981;
-  --color-pink: #facc15;
-  /* Secondary Gold */
-  --color-blue_gradient: #ecfdf5;
-  /* Pale Emerald */
-  --color-yellow_gradient: #fefce8;
-  /* Pale Gold */
-  --color-pale-yellow: #fef9c3;
-  --color-dark_yellow_gradient: #171717;
-  --color-dark_blue_gradient: #064e3b;
-  /* Deep Green for Dark Mode */
+  --color-purple_blue: #1d4ed8; /* Blue Primary */
+  --color-purple: #3b82f6; /* Lighter Blue */
+  --color-blue: #1e3a8a; /* Deep Navy */
+  --color-orange: #f97316; /* Bright Orange */
+  --color-green: #3b82f6;
+  --color-pink: #fb923c; /* Orange tint */
+  --color-blue_gradient: #eff6ff; /* Pale Blue */
+  --color-yellow_gradient: #fff7ed; /* Pale Orange */
+  --color-pale-yellow: #ffedd5;
+  --color-dark_yellow_gradient: #431407;
+  --color-dark_blue_gradient: #1e3a8a; /* Deep Navy for Dark Mode */
 
   --breakpoint-Xsm: 425px;
   --breakpoint-sm: 576px;

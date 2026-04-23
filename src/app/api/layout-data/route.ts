@@ -11,28 +11,28 @@ const headerData = [
 
 const footerData = {
     brand: {
-        name: "HABB",
-        tagline: "Your Success, Engineered by HABB — Dream Beyond Borders. Build Beyond Limits.",
+        name: "HABB Global",
+        tagline: "Your Success, Engineered by HABB Global — Dream Beyond Borders. Build Beyond Limits.",
         socialLinks: [
             {
                 icon: "/images/home/footerSocialIcon/facebook.svg",
                 dark_icon: "/images/home/footerSocialIcon/facebook_dark.svg",
-                link: "https://www.facebook.com/habbinc"
+                link: "https://www.facebook.com/HabbGlobal"
             },
             {
                 icon: "/images/home/footerSocialIcon/instagram.svg",
                 dark_icon: "/images/home/footerSocialIcon/instagram_dark.svg",
-                link: "https://www.instagram.com/habb_inc/#"
+                link: "https://www.instagram.com/HabbGlobal"
             },
             {
                 icon: "/images/home/footerSocialIcon/tiktok.svg",
                 dark_icon: "/images/home/footerSocialIcon/tiktok_dark.svg",
-                link: "https://www.tiktok.com/@habb_inc"
+                link: "https://www.tiktok.com/@HabbGlobal"
             },
             {
                 icon: "/images/home/footerSocialIcon/github.svg",
                 dark_icon: "/images/home/footerSocialIcon/github_dark.svg",
-                link: "https://github.com/habbinc"
+                link: "https://github.com/HabbGlobal"
             },
             {
                 icon: "/images/home/footerSocialIcon/linkedin.svg",
@@ -42,12 +42,12 @@ const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/youtube.svg",
                 dark_icon: "/images/home/footerSocialIcon/youtube_dark.svg",
-                link: "https://www.youtube.com/@habb_inc?utm_source=facebook&utm_medium=confirmed_link_feature"
+                link: "https://www.youtube.com/@HabbGlobal"
             },
             {
                 icon: "/images/home/footerSocialIcon/x.svg",
                 dark_icon: "/images/home/footerSocialIcon/x_dark.svg",
-                link: "https://x.com/habb_inc"
+                link: "https://x.com/HabbGlobal"
             }
         ]
     },
@@ -73,15 +73,16 @@ const footerData = {
     websites: {
         name: "Websites",
         links: [
-            { name: "habb.lk", url: "https://habb.lk" },
-            { name: "habblanka.com", url: "https://habblanka.com" },
-            { name: "habbgate.com", url: "https://habbgate.com" }
+            { name: "HABB.ca", url: "https://habb.ca" },
+            { name: "HABB.ch", url: "https://habb.ch" },
+            { name: "habb.uk", url: "https://habb.uk" },
+            { name: "habb.lk", url: "https://habb.lk" }
         ]
     },
     contactDetails: {
         name: "Get In Touch",
         address1: "218, Brown Road, Jaffna, Sri Lanka",
-        email: "info@habblanka.com",
+        email: "info@habbglobal.com",
         phone: "+94 70 1111 055",
         phones: [
             "+94 70 1111 055",
@@ -89,7 +90,7 @@ const footerData = {
             "+94 71 0111 484"
         ]
     },
-    copyright: "©2026 HABB. All Rights Reserved"
+    copyright: "©2026 HABB GLOBAL (PVT) LTD. All Rights Reserved"
 };
 
 export const GET = async () => {

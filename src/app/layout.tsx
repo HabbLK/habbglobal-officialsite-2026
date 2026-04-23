@@ -6,8 +6,8 @@ import { Metadata } from 'next'
 import CookieConsent from './components/shared/CookieConsent'
 
 export const metadata: Metadata = {
-  title: 'HABB - Sri Lanka\'s Digital Engineering & Software Solutions Partner',
-  description: 'HABB is a Sri Lanka-based digital engineering partner specialising in web, mobile, cloud and AI solutions. We design and build secure, scalable products with focus on reliability and rapid time-to-market.',
+  title: 'HABB Global - Your Digital Engineering & Software Solutions Partner',
+  description: 'HABB GLOBAL (PVT) LTD is a worldwide digital engineering partner specialising in web, mobile, cloud and AI solutions. We design and build secure, scalable products with focus on reliability and rapid time-to-market.',
 }
 
 export default function RootLayout({

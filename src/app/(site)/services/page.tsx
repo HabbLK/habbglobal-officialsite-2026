@@ -16,7 +16,7 @@ export default function ServicesPage() {
             <div className="container py-20 text-center relative z-10">
                 <h1 className="premium-gradient-text mb-6">Our Services</h1>
                 <p className="max-w-3xl mx-auto text-lg text-dark_black/60 dark:text-white/60">
-                    We combine Swiss precision with Sri Lankan engineering talent to deliver high-performance software solutions that scale globally.
+                    We combine global precision with expert engineering talent to deliver high-performance software solutions that scale globally.
                 </p>
             </div>
 

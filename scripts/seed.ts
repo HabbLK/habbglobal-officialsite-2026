@@ -26,11 +26,11 @@ const creativeMindSeed = [
 ]
 
 const faqSeed = [
-  { faq_que: 'What software development services does HABB offer?', faq_ans: 'HABB provides end-to-end software development including custom web applications, mobile apps (iOS/Android), cloud infrastructure, AI-driven solutions, UI/UX engineering, and cybersecurity implementation. We build scalable, production-ready systems tailored to your business needs.' },
+  { faq_que: 'What software development services does HABB Global offer?', faq_ans: 'HABB Global provides end-to-end software development including custom web applications, mobile apps (iOS/Android), cloud infrastructure, AI-driven solutions, UI/UX engineering, and cybersecurity implementation. We build scalable, production-ready systems tailored to your business needs.' },
   { faq_que: 'How long does a typical software project take?', faq_ans: 'Project timelines vary based on scope and complexity. An MVP typically takes 8-12 weeks, while enterprise-scale applications may require 4-6 months or more. We work in agile sprints to deliver incremental value and maintain flexibility throughout development.' },
-  { faq_que: 'How is pricing structured at HABB?', faq_ans: 'We offer flexible engagement models including fixed-price projects, dedicated team arrangements, and time-and-materials contracts. Pricing is tailored to project scope, team composition, and delivery timeline. Contact us for a detailed proposal based on your requirements.' },
+  { faq_que: 'How is pricing structured at HABB Global?', faq_ans: 'We offer flexible engagement models including fixed-price projects, dedicated team arrangements, and time-and-materials contracts. Pricing is tailored to project scope, team composition, and delivery timeline. Contact us for a detailed proposal based on your requirements.' },
   { faq_que: 'Do you provide ongoing support after project delivery?', faq_ans: 'Yes, we provide comprehensive post-launch support including bug fixes, performance monitoring, security updates, and feature enhancements. We offer flexible maintenance packages to ensure your software remains secure, stable, and scalable as your business grows.' },
-  { faq_que: 'What technologies and platforms does HABB work with?', faq_ans: 'We work with modern technology stacks including React, Next.js, Node.js, Python, cloud platforms (AWS, Azure, GCP), mobile frameworks (React Native, Flutter), and AI/ML tools. Our engineers select the optimal stack based on your project requirements and long-term scalability needs.' },
+  { faq_que: 'What technologies and platforms does HABB Global work with?', faq_ans: 'We work with modern technology stacks including React, Next.js, Node.js, Python, cloud platforms (AWS, Azure, GCP), mobile frameworks (React Native, Flutter), and AI/ML tools. Our engineers select the optimal stack based on your project requirements and long-term scalability needs.' },
   { faq_que: 'How do you ensure software quality and security?', faq_ans: 'Quality is built into our process through code reviews, automated testing, continuous integration, and security audits. We follow industry best practices for secure development, implement data protection measures, and conduct thorough QA testing before every release.' },
 ]
 
@@ -39,7 +39,7 @@ const eventSeed = [
     title: 'Jaffna Office Meetup 🚀',
     description: 'A great team meetup at our Jaffna office — unity, strategy, and fun!',
     image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d',
-    link: 'https://habblanka.com/2025/06/25/habb-jaffna/',
+    link: 'https://habbglobal.com/2025/06/25/habb-jaffna/',
   },
   {
     title: 'Vanta 25 Showcase 🚀',

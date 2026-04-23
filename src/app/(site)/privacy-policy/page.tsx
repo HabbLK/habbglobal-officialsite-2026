@@ -68,7 +68,7 @@ export default function Page() {
                         <aside className="bg-white dark:bg-dark_black p-6 rounded-2xl shadow-sm">
                             <h4 className="font-semibold">Contact</h4>
                             <p className="mt-2 text-dark_black/60 dark:text-white/60">
-                                For privacy enquiries, email <a href="mailto:info@habblanka.com" className="underline">info@habblanka.com</a>
+                                For privacy enquiries, email <a href="mailto:info@habbglobal.com" className="underline">info@habbglobal.com</a>
                             </p>
                             <div className="mt-6">
                                 <h5 className="font-medium">Quick links</h5>
