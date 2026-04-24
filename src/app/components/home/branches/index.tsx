@@ -6,7 +6,7 @@ import flagFrance from '@/assets/flags/Flag_of_France.svg.png'
 import flagCanada from '@/assets/flags/Flag_of_Canada_(Pantone).svg'
 import flagAustralia from '@/assets/flags/Flag_of_Australia_(converted).svg.png'
 import flagSwitzerland from '@/assets/flags/Flag_of_Switzerland_(Pantone).svg'
-import flagUK from '@/assets/flags/Flag_of_the_United_Kingdom_(1-2).svg'
+import flagSriLanka from '@/assets/flags/Flag_of_Sri_Lanka.svg'
 import flagIndia from '@/assets/flags/Flag_of_India.svg'
 
 type Branch = {
@@ -19,67 +19,18 @@ type Branch = {
 
 const branches: Branch[] = [
   {
-    image: flagUK,
-    title: 'UK – London',
-    address: '123 Tech Lane, London EC1A 1BB',
-    map: 'https://share.google/YourLinkHere',
-    alt: 'UK flag',
-  },
-  {
-    image: flagUK,
-    title: 'UK – Manchester',
-    address: '45 Innovation Drive, Manchester M1 1AA',
-    map: 'https://share.google/YourLinkHere',
-    alt: 'UK flag',
-  },
-  {
-    image: flagGermany,
-    title: 'Germany',
-    address: 'Elchbogen 19, 44892 Bochum',
-    map: 'https://share.google/CppSQyqrNzXlOUNvx',
-    alt: 'Germany flag',
-  },
-  {
-    image: flagFrance,
-    title: 'France',
-    address: '152 Bd Ney, 75018 Paris',
-    map: 'https://share.google/KNa0JyWYpZIg8Q6zn',
-    alt: 'France flag',
-  },
-  {
-    image: flagCanada,
-    title: 'Canada',
-    address: '2225 Markham Rd, Scarborough, ON M1B 2W4',
-    map: 'https://share.google/Y0Wm2G1DISAfuELGz',
-    alt: 'Canada flag',
-  },
-  {
-    image: flagAustralia,
-    title: 'Australia',
-    address: '3 Sayer Cres, Gosnells WA 6110',
-    map: 'https://share.google/0IVXXeejkpjYI5uri',
-    alt: 'Australia flag',
+    image: flagSriLanka,
+    title: 'Sri Lanka – Jaffna',
+    address: '218, Brown Road, Jaffna, Sri Lanka',
+    map: 'https://share.google/ay5KrMXaJjpW10SQY',
+    alt: 'Sri Lanka flag',
   },
   {
     image: flagSwitzerland,
-    title: 'Switzerland',
-    address: 'Update coming soon',
-    map: '',
+    title: 'Switzerland – Rüegsau',
+    address: 'Sonnheimstrasse 6, 3415 Rüegsau, Switzerland',
+    map: 'https://share.google/PPcEFhynDYXkaXORL',
     alt: 'Switzerland flag',
-  },
-  {
-    image: flagUK,
-    title: 'United Kingdom',
-    address: '40 Linden Rd, Luton LU4 9QZ, United Kingdom',
-    map: 'https://share.google/asyPUHzru2m0gUGs0',
-    alt: 'United Kingdom flag',
-  },
-  {
-    image: flagIndia,
-    title: 'India',
-    address: 'Church Road, Mogappair, Chennai, Tamil Nadu 600037',
-    map: 'https://share.google/XZADCzuCaAjGX6JN3',
-    alt: 'India flag',
   },
 ]
 
@@ -106,7 +57,7 @@ function Branches() {
             </p>
           </div>
 
-          <div className='mt-10 grid gap-5 md:gap-6 md:grid-cols-2 lg:grid-cols-3'>
+          <div className='mt-10 grid md:grid-cols-2 gap-x-6 gap-y-8'>
             {branches.map((branch) => (
               <div
                 key={branch.title}

@@ -93,18 +93,7 @@ const Footer = () => {
                 )
               })}
             </ul>
-            {footerData?.websites && (
-              <div className='flex flex-col gap-2 mt-4 pt-4 border-t border-dark_black/10 dark:border-white/10 items-center md:items-start'>
-                <p className='font-medium text-sm'>{footerData.websites.name}</p>
-                <ul className='flex flex-col gap-2 items-center md:items-start'>
-                  {footerData.websites.links.map((w: any, i: number) => (
-                    <li key={i} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>
-                      <Link href={w.url} target='_blank'>{w.name}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
+            {/* Websites section removed as requested */}
           </div>
 
           <div className='flex flex-col gap-4 items-center text-center md:items-start md:text-left'>
@@ -115,19 +104,12 @@ const Footer = () => {
             <Link href={`mailto:${footerData?.contactDetails?.email}`} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>
               {footerData?.contactDetails?.email}
             </Link>
-            {footerData?.contactDetails?.phones ? (
-              <div className='flex flex-col gap-1 items-center md:items-start'>
-                {footerData.contactDetails.phones.map((p: string, i: number) => (
-                  <Link key={i} href={`tel:${p.replace(/\s+/g, '')}`} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>
-                    {p}
-                  </Link>
-                ))}
-              </div>
-            ) : (
-              <Link href={`tel:${footerData?.contactDetails?.phone}`} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>
-                {footerData?.contactDetails?.phone}
-              </Link>
-            )}
+            <div className='flex flex-col gap-1 items-center md:items-start'>
+              <Link href={'tel:+94701111484'} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>+94 70 1111 484</Link>
+              <Link href={'tel:+41799239772'} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>+41 79 9239 772</Link>
+              <Link href={'tel:+94774704219'} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>+94 77 4704 219</Link>
+              <Link href={'tel:+94701111055'} className='text-dark_black/60 hover:text-black dark:text-white/60 dark:hover:text-white text-sm'>+94 70 1111 055</Link>
+            </div>
             <div className='pt-2'>
               <Link
                 href='/signin'

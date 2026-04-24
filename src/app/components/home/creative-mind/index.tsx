@@ -48,10 +48,14 @@ function CreativeMind() {
                 />
               </h2>
             </div>
-            <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8'>
+            <div className='flex flex-wrap justify-center gap-x-6 gap-y-8 w-full'>
               {displayedList?.map((item: any, index: any) => {
                 return (
-                  <motion.div {...bottomAnimation(index)} key={index}>
+                  <motion.div 
+                    {...bottomAnimation(index)} 
+                    key={index}
+                    className='w-full md:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]'
+                  >
                     <SingleCreativeMind key={index} creativemind={item} />
                   </motion.div>
                 )

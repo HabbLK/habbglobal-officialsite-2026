@@ -10,7 +10,7 @@ const SingleCreativeMind = ({
 
     return (
         <div
-            className='group flex flex-col gap-6 items-center justify-center max-w-80'>
+            className='group flex flex-col gap-6 items-center justify-center max-w-80 mx-auto w-full'>
             <div className='group-hover:grayscale w-full aspect-[3/4] relative overflow-hidden rounded-2xl'>
                 <Image
                     src={image}

@@ -51,7 +51,7 @@ const eventSeed = [
     title: 'Team HABB at SLIIT! 🚀',
     description: 'A productive discussion at SLIIT on our projects and growth!',
     image: 'https://images.unsplash.com/photo-1545239351-1141bd82e8a6',
-    link: 'https://www.linkedin.com/company/habbinc',
+    link: 'https://www.linkedin.com/company/habb',
   },
   {
     title: 'Exciting Beginnings! 🚀',
@@ -69,7 +69,7 @@ const eventSeed = [
     title: 'Guidance & mentorship 🚀',
     description: 'Guidance & mentorship shaping our journey at HABB!',
     image: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f',
-    link: 'https://www.linkedin.com/company/habbinc',
+    link: 'https://www.linkedin.com/company/habb',
   },
 ]
 

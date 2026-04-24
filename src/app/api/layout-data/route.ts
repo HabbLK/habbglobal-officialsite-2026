@@ -37,7 +37,7 @@ const footerData = {
             {
                 icon: "/images/home/footerSocialIcon/linkedin.svg",
                 dark_icon: "/images/home/footerSocialIcon/linkedin_dark.svg",
-                link: "https://www.linkedin.com/company/habbinc/"
+                link: "https://www.linkedin.com/company/habb/"
             },
             {
                 icon: "/images/home/footerSocialIcon/youtube.svg",
