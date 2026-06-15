@@ -41,7 +41,7 @@ function OnlinePresence() {
               <h2>
                 <TextGenerateEffect words="Services by HABB" duration={0.5} />
                 <TextGenerateEffect
-                  words="HABB DIGI · HABB AI · HABBGate · HABB Connect"
+                  words="HABB DIGI · HABB AI · HABBGate · HABB Connect · HABB One"
                   delay={1.2}
                   className="italic font-normal instrument-font"
                 />
@@ -50,6 +50,7 @@ function OnlinePresence() {
                 HABB DIGI — digital marketing services to grow your brand online. HABB AI —
                 AI-driven products and solutions. HABBGate — secure access control systems for
                 buildings and events. HABB Connect — CRM platform for client relationship management.
+                HABB One — enterprise resource planning for unified business operations.
               </p>
 
               <div className='mt-8 grid sm:grid-cols-3 gap-6'>
@@ -78,13 +79,21 @@ function OnlinePresence() {
                 </Link>
               </div>
 
-              <div className='mt-6 flex justify-center'>
+              <div className='mt-6 flex justify-center gap-6 flex-wrap'>
                 <Link href='/connect' className='block p-4 rounded-2xl border border-dark_black/10 dark:border-white/10 max-w-xs w-full' aria-label='Open HABB Connect page'>
                   <div className='h-40 w-full overflow-hidden rounded-lg mb-4'>
                     <Image src='/screenshots_habbconnect/HABB Connec5655t.png' alt='HABB Connect' width={600} height={300} className='object-cover w-full h-full' />
                   </div>
                   <h4 className='font-semibold'>HABB Connect</h4>
                   <p className='text-sm mt-2 opacity-80'>CRM platform for managing client relationships, leads, and sales pipeline.</p>
+                </Link>
+
+                <Link href='/one' className='block p-4 rounded-2xl border border-dark_black/10 dark:border-white/10 max-w-xs w-full' aria-label='Open HABB One page'>
+                  <div className='h-40 w-full overflow-hidden rounded-lg mb-4'>
+                    <Image src='/screenshots_habbone/WhatsApp Image 2026-06-ss12 at 12.56.27 AM.png' alt='HABB One' width={600} height={300} className='object-cover w-full h-full' />
+                  </div>
+                  <h4 className='font-semibold'>HABB One</h4>
+                  <p className='text-sm mt-2 opacity-80'>Enterprise resource planning for unified finance, inventory, HR, and operations.</p>
                 </Link>
               </div>
             </div>
